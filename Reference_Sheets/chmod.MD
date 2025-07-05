@@ -25,3 +25,9 @@ trevorstahl@Mac chmod_temp %
 ```chmod u-x some.xyz``` change mode, user loses execution, on file some.xyz
 
 ```chmod g+r any.txt``` change mode, group gets read, on any.txt
+
+
+## Alternative Usages:
+
+```chmod +777 script.py``` change mode, give read, write and execute to owner, group, others, on script.py
+* Quick blanket fix for denied permisions on files, ***major security risk***, gives maximum permisions to everyone
