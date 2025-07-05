@@ -26,6 +26,13 @@ trevorstahl@Mac chmod_temp %
 
 ```chmod g+r any.txt``` change mode, group gets read, on any.txt
 
+```chmod o-rw note.txt``` change mode, others lose read and write, on note.txt
+
+```chmod u=rw,go=r new_document.odt``` change mode, set user to only read and write, set group and other to only read, on new_document.odt
+
+```chmod a=r only_read.txt``` change mode, set all(a) to only read, on only_read.txt
+
+
 
 ## Alternative Usages:
 
