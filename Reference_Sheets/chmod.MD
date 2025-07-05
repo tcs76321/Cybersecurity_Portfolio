@@ -4,9 +4,11 @@
 
 1 - POSIX files have permissions for owner(user), group, other to read, write, or execute.
 
-2 - ```ls -la``` lists current working directory's files including all hidden files(-a) and in the long list format(-l)
+2 - In Unix-like environments, dotfiles which start with . are treated in some ways as 'hidden'. The ls command by default does not list them. An example of a dotfile is a .gitignore file.
 
-3 - The 10 char file permissions string. The first char denotes if it is a file(-) or directory(d) and each set of three chars after it are the read(r), write(w) and execution(x), three sets of three chars for user/owner(u), group(g) and other(o)
+3 - ```ls -la``` lists current working directory's files including all hidden files(-a) and in the long list format(-l)
+
+4 - The 10 char file permissions string. The first char denotes if it is a file(-) or directory(d) and each set of three chars after it are the read(r), write(w) and execution(x), three sets of three chars for user/owner(u), group(g) and other(o)
 ```
 trevorstahl@Mac chmod_temp % ls -la
 total 0
