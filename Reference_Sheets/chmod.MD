@@ -4,7 +4,7 @@
 
 1 - POSIX files have permissions for owner(user), group, other to read, write, or execute.
 
-2 - In Unix-like environments, dotfiles which start with . are treated in some ways as 'hidden'. The ls command by default does not list them. An example of a dotfile is a .gitignore file.
+2 - In Unix-like environments, files which start with . are known as dotfiles and are treated in some ways as 'hidden'. For example, the ls command by default does not list them. An example of a dotfile is a .gitignore file.
 
 3 - ```ls -la``` lists current working directory's files including all hidden files(-a) and in the long list format(-l)
 
