@@ -22,4 +22,4 @@ trevorstahl@Mac chmod_temp %
 
 ```chmod u-x some.xyz``` change mode, user loses execution, on file some.xyz
 
-```chmod g+rw any.txt``` change mode, group gets read and write, one any.txt
+```chmod g+r any.txt``` change mode, group gets read, on any.txt
