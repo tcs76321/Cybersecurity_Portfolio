@@ -36,6 +36,6 @@ trevorstahl@Mac chmod_temp %
 
 ## Alternative Usages:
 
-```chmod +777 script.py``` change mode, give read, write and execute to owner, group, others, on script.py
+```chmod 777 script.py``` change mode, give read, write and execute to owner, group, others, on script.py
 * Quick blanket fix for denied permisions on files, ***major security risk***, gives maximum permisions to everyone
 * Uses octal binary in decimal to represent permissions for each group, binary:001 is 1 in decimal, 010 is 2, 011 is 3, 100 is 4, 101 is 5, 110 is 6, and 111 is 7. Each binary digit 001(1), 010(2), 100(4) represent execution, write, and read permissions. 111 which is 7 mean read, write, and execute.
