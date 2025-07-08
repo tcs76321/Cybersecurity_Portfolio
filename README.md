@@ -4,5 +4,6 @@
 - Professional Statement
 - Mock Security Audit
 - Mock Incident Response
+- Mock Incident Handlers' Journal
 
-Initially created while completing the Google cybersecurity certificate course.
+Initially created while completing the Google Cybersecurity Certificate course.
